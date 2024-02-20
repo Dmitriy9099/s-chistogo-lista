@@ -1,0 +1,347 @@
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  padding: 0;
+  margin: 0;
+}
+
+.content-section {
+  width: 360px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+/*Хедер*/
+.header {
+  background-color: #131313;
+  display: flex;
+  column-gap: 168px;
+  padding: 24px 20px;
+}
+
+/*Логотип*/
+.header__logo {
+  max-width: 79px;
+}
+
+.header__logo-image {
+  width: 78.46px;
+  height: 15.44px;
+}
+
+/*Меню*/
+.header__menu-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.header__menu-item {
+  list-style-type: none;
+  text-decoration: underline;
+}
+
+.header__menu-item_active {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.header__menu-link {
+  color: #f5f5f5;
+  font-size: 16px;
+  line-height: 19.2px;
+  text-decoration: inherit;
+}
+
+/*Шаблонные классы для желтого и черного фона*/
+.content-section_theme_dark {
+  background-color: #131313;
+  color: #ffffff;
+}
+
+.content-section_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
+}
+
+/*Стили для Cover*/
+.cover {
+  padding-top: 9px;
+  display: flex;
+  min-height: 221px;
+  justify-content: flex-end;
+  background-image: url(/images/cover.svg);
+  background-size: 93.96% auto;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.cover__title {
+  font-family: "EB Garamond", "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 100%;
+  margin-bottom: 4.2px;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+  margin-right: 68px;
+  margin-left: 46px;
+}
+
+.text-right {
+  text-align: end;
+  margin-right: 24px;
+}
+
+/*Стили для Intro*/
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.intro__heading {
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 30px;
+  line-height: 120%;
+}
+
+.intro__title {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #cccccc;
+  width: 203px;
+  line-height: 120%;
+}
+
+.intro__date {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.intro__main-text {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #f5f5f5;
+  width: 320px;
+  margin: auto;
+  margin-bottom: 37px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  line-height: 21.6px;
+}
+
+/*Стили для секции Reasons*/
+.reasons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.content-section__subtitle {
+  width: 320px;
+  height: 63px;
+  font-family: "EB Garamond", "Times New Roman", Times, serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 115%;
+  padding-top: 40px;
+  color: #131313;
+  margin: auto;
+}
+
+.text-right_2 {
+  text-align: right;
+}
+
+.content-section_introduction {
+  width: 320px;
+  height: 297px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 400;
+  margin: auto;
+}
+
+.content-section_list {
+  width: 304px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  margin-left: 36px;
+  margin-bottom: 40px;
+}
+
+.content-section_list-item {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #131313;
+  line-height: 21.6px;
+}
+
+.content-section__list-accent {
+  font-weight: 700;
+}
+
+/*Стили для секции How to*/
+.how-to {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;
+  padding-top: 40px;
+  row-gap: 32px;
+}
+
+.content-section__subtitle_2 {
+  width: 320px;
+  height: 63px;
+  font-family: "EB Garamond", "Times New Roman", Times, serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 115%;
+  color: #f5f5f5;
+  margin: auto;
+}
+
+.content-section_introduction_2 {
+  width: 320px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 135%;
+  font-weight: 400;
+  margin: auto;
+}
+
+.cards-list {
+  width: 319px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.card_theme_dark {
+  background-color: #343434;
+  border-radius: 30px;
+  color: #f5f5f5;
+}
+
+.card_theme_bright {
+  background-color: #fee42a;
+  border-radius: 30px;
+  color: #131313;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  padding: 20px;
+}
+
+.card__author {
+  display: flex;
+  flex-direction: column;
+  margin-right: 116px;
+  row-gap: 8px;
+}
+
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+}
+
+.card__author-name {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 135%;
+  font-size: 16px;
+}
+
+.card_text-only {
+  padding: 20px;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.card__title {
+  font-family: "EB Garamond", "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 135%;
+}
+
+.card__text {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.6px;
+}
+
+/*Footer*/
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #131313;
+  padding: 20px;
+  border-top: solid #fee42a 1px;
+}
+
+.footer__copy {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 135%;
+  font-size: 16px;
+  color: #f5f5f5;
+  margin-right: auto;
+}
+
+.footer-links {
+  display: flex;
+  column-gap: 16px;
+}
+
+.footer-link {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 125%;
+  font-size: 14px;
+  color: #f5f5f5;
+  text-decoration: none;
+}
